@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ciet *.css
+recursive-include ciet *.csv
+recursive-include ciet *.html
+recursive-include ciet *.ico
+recursive-include ciet *.js
+recursive-include ciet *.json
+recursive-include ciet *.md
+recursive-include ciet *.png
+recursive-include ciet *.py
+recursive-include ciet *.svg
+recursive-include ciet *.txt
+recursive-exclude ciet *.pyc
